@@ -132,7 +132,7 @@ header {
 }
 
 .heading h2 {
-  font-weight: normal;
+  font-weight: bold;
   border-bottom: 2px solid #dee7ec;
 }
 
@@ -212,4 +212,50 @@ footer {
 /* float: left; を解除 */
 .clear {
   clear: left;
+}
+.recruit-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+}
+.recruit-wrapper h2{
+  text-align: center;
+}
+.recruit-wrapper p{
+  text-align: center;
+}
+.modListHeaded__item:not(:last-child) {
+    border-bottom: 2px solid #000;
+}
+.modListHeaded__item {
+    display: flex;
+}
+.modListHeaded__item {
+    padding: 14px 0;
+}
+.modListHeaded__item__title {
+    font-size: 22px;
+    font-size: 1.7rem;
+    width: 240px;
+}
+dt {
+    display: block;
+}
+.modListHeaded__item__content {
+    width: calc(100% - 240px);
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+.recruitOutline .modListDots, .recruitOutline .text {
+    margin-top: 10px;
+}
+.modListDots li {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+.text{
+  float: left;
 }
