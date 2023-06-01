@@ -99,6 +99,7 @@ header {
   float: left;
 }
 
+
 .header-right {
   float: right;
   margin-right: -25px;
@@ -139,6 +140,7 @@ header {
 .lesson {
   float: left;
   width: 25%;
+
 }
 
 .lesson-icon {
@@ -171,6 +173,7 @@ span{
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #f7f7f7;
 }
 
 .message {
@@ -225,37 +228,11 @@ footer {
 .recruit-wrapper p{
   text-align: center;
 }
-.modListHeaded__item:not(:last-child) {
-    border-bottom: 2px solid #000;
+.recruite-item{
+  padding:20px;
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
 }
-.modListHeaded__item {
-    display: flex;
-}
-.modListHeaded__item {
-    padding: 14px 0;
-}
-.modListHeaded__item__title {
-    font-size: 22px;
-    font-size: 1.7rem;
-    width: 240px;
-}
-dt {
-    display: block;
-}
-.modListHeaded__item__content {
-    width: calc(100% - 240px);
-}
-dd {
-    display: block;
-    margin-inline-start: 40px;
-}
-.recruitOutline .modListDots, .recruitOutline .text {
-    margin-top: 10px;
-}
-.modListDots li {
-    text-indent: -1em;
-    padding-left: 1em;
-}
-.text{
-  float: left;
+.recruite-site{
+  text-align: center;
 }
